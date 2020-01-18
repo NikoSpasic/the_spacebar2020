@@ -13,6 +13,9 @@ trait LoggerTrait
      */
     private $logger;
 
+    /**
+     * @required
+     */
     public function setLogger(LoggerInterface $logger)
     {
         $this->logger = $logger;
